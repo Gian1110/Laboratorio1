@@ -1,0 +1,3 @@
+la pagina web del punto 3 es accesible por el uso de id, pues, localizan la pagina en la informacion deseada, ya que los
+ usuario (no videntes) no deben complicarse scroleando toda la pagina para obtener la informacion deseada y tambien cuenta
+con una breve reseña en la imagen y titulos 

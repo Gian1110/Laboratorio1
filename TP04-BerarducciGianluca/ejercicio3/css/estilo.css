@@ -1,0 +1,157 @@
+*{
+    margin: 0em;
+}
+body{
+    background-color: rgb(0, 0, 0);
+}
+header{
+    text-align: center;
+    background-color: black;
+}
+header img{
+    height: 15em;
+    width: 100%;
+    background-color: transparent;
+}
+#menu{
+    position: sticky;
+    top:0;
+    position: -webkit-sticky;
+}
+nav{
+    display: block;
+}
+#menu ul,#menu li{
+    display: inline-block;
+    padding: 1em;
+    margin-left: 0.4em;
+}
+#menu a{
+    margin-left: 0.2em;
+    vertical-align: middle;
+    color: white;
+    text-decoration: none;
+    background-color: transparent;
+    font-size: 1.4em;
+}
+nav img{
+    height: 5%;
+    width: 5%;
+}
+#menu li:hover,#menu li:focus{
+    background-color: blue;
+    border-radius: 1em;
+}
+.columna{
+    column-count: 2;
+    column-width: 40%;
+    column-gap: 5%;
+    column-rule: 0.1em solid white;
+    color: white;
+}
+.separado{
+    margin: 1em;
+    text-align: justify;
+    font-size: 1.5em;
+}
+.tamanio{
+    color: white;
+    margin-top: 1em;
+    text-align: center;
+font-size: 3em;
+}
+.titu{
+    text-align: center;
+}
+main img{
+    height: 100%;
+    width: 100%;
+}
+.vid{
+    background-image: url(../img/linkin-park-living-things.jpg);
+    background-size: 20%;
+    text-align: center;
+}
+#top5{
+    background-image: url(../img/disco.jpg);
+    background-size: 100%;
+    margin-top: 1em;
+}
+#top5 li{ 
+    margin-top: 1em;
+    margin-left: 1em;
+    font-size: 2.5em;
+    color: white;
+}
+#audio{
+    margin-left: 6em;
+}
+#video{
+    background-image: url(../img/linkin-park-2.jpg);
+    background-size: 40%;
+    text-align: center;
+}
+.video{
+    width: 70%;
+    height: 30em; 
+}
+.letra{
+    color: white;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    text-align: center;
+    font-size: 2em;
+}
+footer{    
+    background-image: url(../img/linkin-park.jpg);
+    text-align: center;
+    background-size: 100%;
+    height: 30em;
+}
+#formulario input{
+    width: 20%;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    border-radius: .5em;
+    text-align: center;
+}
+#enviar{
+    color: white;
+    font-size: 1em;
+    background-color: rgb(4, 75, 4);
+}
+.dudas{
+    background-size: 12%;
+    background-image: url(../img/icono.png);
+    text-align: center;
+}
+#consultas input{
+    text-align: center;
+    margin: 2em;
+    width: 20em;
+    border-radius: 0.4em;
+}
+#consultas textarea{
+    text-align: center;
+    border-radius: 0.4em;
+    height: 10em;
+     width: 20em;
+    resize: none;
+}
+#busqueda input{
+    text-align: center;
+    font-size: 1em;
+    border-radius: 0.4em;  
+}
+#bus{
+    vertical-align: middle;
+    background-color: none;
+    background-size: 100%;
+    background-image: url(../img/lupa.jpg);
+    width: 1.5em;
+}
+#busque{
+   
+}

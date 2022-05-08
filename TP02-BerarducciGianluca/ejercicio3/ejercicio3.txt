@@ -1,0 +1,6 @@
+ejercicio1
+tengo que mejorar: a) el comprendicimento de la jerarquia de h1,h2,etc
+		   b) aprender a usar mas el css para editar texto en lugar de el html
+		   c)no habia necesidad de enlasar el los elementos de la lista al ser una pag corta
+ejercicio2:
+mejorar :a) igual que en el punto 1, el comprimiendo de la jerarquia de h1,h2,etc

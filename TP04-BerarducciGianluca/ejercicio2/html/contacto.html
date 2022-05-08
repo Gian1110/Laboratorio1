@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Berarducci Gianluca">
+    <title>contacto</title>
+    <link rel="stylesheet" href="../css/estilo.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="../index.html"><img src="../img/logo.png" title="facet ecotec en verde" alt="logo facet"></a>
+            <ul>
+                <li><a href="../index.html">Inicio</a></li>
+                <li><a href="noticias.html">Noticias</a></li>
+                <li>Mision</li>
+                <li>Vision</li>
+                <li><a href="#">Contacto</a></li>
+                <li id="login"><a href="login.html">Iniciar sesion</a></li>
+            </ul>
+        </nav>
+    </header>
+        <main >
+            <img src="../img/contacto.png" alt="" id="foto">
+            <h2 class="contac">Contáctenos</h2>
+            <form action="../php/" id="contacto" method="post">
+                <input type="text" maxlength="30" name="nombre" placeholder="Ingrese su nombre" class="tres" required>
+                <br>
+                <input type="email" name="correo" placeholder="Ingrese su mail" class="tres" required>
+                <br>
+                <input type="tel" name="tel" pattern="[0-9]{7}" placeholder="Ingrese su telefono" class="tres" required>
+                <br>
+                <textarea name="mensaje" id="msj"placeholder="ingrese su mensaje" required></textarea>
+                <br>
+                <input type="submit" value="Enviar consulta">
+            </form>
+        </main>
+        <footer><a href="https://facetvirtual.facet.unt.edu.ar/course/view.php?id=224">Laboratorio I - FACET - 2020</a></footer>
+</body>
+</html>

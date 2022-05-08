@@ -1,0 +1,57 @@
+.cabecera{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#principal{
+    color: goldenrod;
+    font-family: 'Sacramento', cursive;
+    text-decoration: none;  
+}
+.menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 10vh;
+    align-items: stretch;
+    background: rgb(0, 143, 209);
+}
+nav li{
+color: white;
+ background-color: blue;
+ text-align: center;
+ font-size: 1.2em;
+ padding: 1em;
+ list-style: none;
+}
+.fotos{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+}
+
+.filas{
+    display: flex;
+    flex-direction: column;
+}
+.imagenes{
+    padding-bottom: 2vh;
+    width: 100%;
+}
+#imagen{
+    width: 100%;
+    justify-content: space-between;
+}
+.me{
+    display: flex;
+    justify-content: center;
+}
+#foto{
+   justify-content: center;
+    flex-basis: 40em;
+    padding-right: 1vw;
+}

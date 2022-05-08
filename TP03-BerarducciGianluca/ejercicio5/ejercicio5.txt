@@ -1,0 +1,5 @@
+1) me falta aprender bien la diferencian del orden de jerarquia (h1 a h6) y mejorar el uso de listas
+2) falta de enlace que lleve a la pag principal y falta de encabezados
+3) mismo error que en el punto 2
+4) error en el uso de enlaces, el primer enlace de la pag, no lleva al contenido principa
+Cómo se puede observar en todos los puntos se puede llegar a la conclusión que fallan en el mismo punto y debo practicar mas en ellos

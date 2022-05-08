@@ -1,0 +1,127 @@
+*{
+    margin: 0em;
+    background-color: black;
+}
+nav{
+color: white;
+display: block;
+
+}
+nav li:hover, nav li:focus{
+    background-color: rgb(79, 207, 79);
+}
+nav a{
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    size: 100%;
+    background-color: transparent;
+}
+nav ul, li{
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 1em;
+    padding-top: 0.1em;
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-bottom: 0.1em;
+    border-radius: 0.5em;
+}
+img{
+    display: inline-block;
+    vertical-align: middle;
+    border-radius:0.5em;
+}
+#login{
+    background-color: orange;
+}
+footer{
+    text-align: center;
+}
+footer a{
+    color: white;
+    text-decoration: none;
+}
+main{
+    text-align: center;
+}
+video{
+    text-align: center;
+    height: 100%;
+    width: 70%;
+}
+h2{
+    color: gray;
+    margin: 1em;
+}
+.imagen{
+    margin-left: 30%;
+    height: 45%;
+    width: 45%;
+}
+.columnas{
+    column-count: 2;
+    column-gap: 3%;
+    column-width: 30%;
+    column-rule: 0.1em solid white;
+    text-align: justify;
+}
+p{
+    margin: 1em;   
+    color: white;
+}
+#foto{
+    width:40%;
+}
+#foto2{
+    margin-top: 8em;
+    width:30%;
+}
+.contac{
+    margin: 0.5em;
+    font-size: 2em;
+}
+.tres{
+    background-color: white;
+    width: 43%;
+    height: 2em;
+    border-radius: 0.5em;
+    margin: 0.5em;
+}
+.dos{
+    background-color: white;
+    width: 30%;
+    height: 2em;
+    border-radius: 0.5em;
+    margin: 0.5em;
+}
+#msj{
+    background-color: white;
+    width: 43%;
+    height: 4em;
+    border-radius: 0.5em;
+    margin: 0.5em;
+    resize: none;
+}
+#contacto input[type="submit"]{
+background-color:  rgb(79, 207, 79);
+width: 43%;
+height: 4em;
+color:white;
+border-radius: 0.7em;
+border-color: black;
+margin: 0.5em;
+resize: none;
+font-family: 'Cambria';
+}
+#entra input[type="submit"]{
+    background-color:  rgb(79, 207, 79);
+    width: 20%;
+    height: 4em;
+    color:white;
+    border-radius: 1.5em;
+    border-color: black;
+    margin: 1em;
+    resize: none;
+    font-family: 'Cambria';
+    }

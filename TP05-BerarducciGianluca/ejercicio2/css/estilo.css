@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+}
+.menu2{
+    display: flex;
+    flex-direction: row;
+    flex-basis: 2em;
+    list-style: none;
+    
+}
+.menu1{
+    padding: 1em;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+    background-color: blue;
+    align-items: center;
+}
+#titulo{
+    color: white;
+}
+.redes{
+    align-items: center;
+    width: 3em;
+}
+#logo{
+    border-radius: 1em;
+}
+
+.menu3{
+    background-color: rgb(148, 188, 190);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    list-style: none;
+    align-items: center;
+    height: 3em;
+}
+.menu3 li{
+    flex-grow: 1;
+}
+.classh5{
+    height: 3em;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+}
+.menu3 li:hover,.menu3 li:focus{
+    background-color: white;
+}
+.menu4{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+#publicidad{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 21%;
+    padding-top: 1.2%;
+    padding-right: 1%;
+    align-items: stretch;
+}
+.publi{
+    display: flex;
+    flex-direction: column;
+    padding: 0.2em;
+    border: 0.05em solid;
+    border-color: gray;
+    justify-content: space-around;
+    width: 99%;
+    height: 100%;
+}
+.publi img{
+    width: 100%;
+    height: 100%;
+}
+.autos{
+    display: flex;
+    flex-direction: column;
+    padding: 0.2em;
+    border: 0.05em solid;
+    border-color: gray;
+    margin: 0.1em;
+   /* justify-content: space-between;*/
+    width: 25%;
+    text-align: center;
+}
+.autos a{
+    text-decoration: none;
+}
+img{
+    width: 100%;
+}
+#ofertas{
+    width: 75%;
+    margin-top: 1.2%;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border: 0.05em solid;
+    border-color: gray;
+    padding: 0.2em;
+}
+.mini{
+    height: 20%;
+    width: 100%;
+}
+.deta{
+    background-color: blue;
+    color: white;
+    border-radius: 0.25em;
+    padding: 1%;
+    margin-left: 5em;
+    margin-right: 5em;
+    
+}
+#pie{
+    margin-top: 2%;
+    text-align: center;
+}
+.separacion{
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+#orden{
+   display: flex;
+   flex-direction: row; 
+   margin-top: 1%;
+   margin-bottom: 1%;
+}
+.nombreauto{
+    text-align: center; 
+}

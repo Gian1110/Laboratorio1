@@ -1,0 +1,5 @@
+lee la etiqueda y el contenido, de una forma entendible para el usuario, ejemplos hechos con el ejercicio2
+:
+"titulo nivel uno encabezado"
+"principal region encabezado"
+"lista de 4 elementos black squere "

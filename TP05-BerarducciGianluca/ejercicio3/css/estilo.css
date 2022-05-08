@@ -1,0 +1,98 @@
+*{
+    margin: 0em;
+}
+.menu{
+    display: flex;
+    flex-direction: row;
+    background-color: transparent;
+    color: white;
+    position: sticky;
+    top: 0;
+    position: -webkit-sticky;
+}
+.menul{
+    display: flex;
+    flex-direction: row;
+    font-size: 2em;
+}
+.menu li{
+    display: flex;
+}
+.iconotexto{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.menul a{
+    text-decoration: none;
+    color: white;
+}
+.fondo :hover,.fondo :focus{
+background-color: red;
+color: black;
+}
+#titulo{
+    font-size: 4em;
+    font-family: 'Roboto Mono', monospace;
+    text-align: center;
+    color: red;
+}
+.fondocompleto{
+    background-color: black;
+}
+#trailer{
+    color: white;
+    text-align: center;
+   
+}
+#peli{
+    width: 65em; 
+    height: 40em;
+}
+#Argumento{
+    margin: 2em;
+    color: white;
+    border: 0.1em solid red;
+}
+
+@font-face{
+    font-family: "MiFuente";
+    src: url(../fuente/Agane¦Ç\ 45\ \(light\).ttf);
+}
+.textoo{
+    font-family: "MiFuente";
+   
+    color: white;
+}
+.textoo1{
+    margin: 1em;
+    font-family: "MiFuente";
+    font-size: 4em;
+    color: red;
+    text-align: center;
+}
+#Reparto li,#Musica li{
+    font-size: 2em;
+    color: white;
+}
+.audioo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    }
+#vj{
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 2em;
+}
+.imgenes{
+width:50%;
+}
+.portada{
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 2em;
+}
+.portada img{
+    width: 30%;
+}

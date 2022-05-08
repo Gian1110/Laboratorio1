@@ -1,0 +1,72 @@
+*{
+    margin: 0em;
+    border: 0em;
+    padding: 0em;
+}
+header{
+    vertical-align: middle;
+    background-color: orange;
+}
+nav{
+    display: block;
+    background-color: red;
+    text-align: center;
+}
+nav li:hover, nav li:focus {
+    background: violet;
+    color:white;
+    }
+nav a{
+        color: white;
+}
+    nav li {
+        border: thin solid violet;
+        background-color: violet;
+        height: 1rem;
+        padding: 0.2em;
+        vertical-align: top;
+    }
+nav ul{
+    display: inline-block;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+nav li{
+    text-align: center;
+    display: inline-block;
+}
+
+
+
+main, aside {
+    margin: 0.5%;
+    display: inline-block;
+} 
+main {
+    padding-left: 10em;
+    width: 50em;
+    vertical-align: top;
+    }
+    
+    h1 {
+	text-align: left;
+	color: black;
+    }
+    
+    article p {
+        margin-top: 1%;
+        font-size: 1.1em;
+    }
+    aside ul{
+        list-style-type: square;
+    }
+h4{
+    border: violet;
+    background-color: violet;
+    margin-left: 46em;
+    text-align: center;
+    color: white;
+}
+a{
+    color: white;
+}

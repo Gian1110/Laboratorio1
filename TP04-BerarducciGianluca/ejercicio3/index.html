@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Berarducci Gianluca">
+    <meta name="description" content="pagina sobre Koeda">
+    <title>ejercicio 3</title>
+    <link rel="stylesheet" href="css/estilo.css">
+</head>
+<body>
+    <header id="inicio">
+    <img src="img/nombre.jpg" alt="linkin park" title="titulo linkin park">
+    </header>
+    <nav id="menu">
+        <a href="#inicio"><img src="img/icono.png" alt="icono de linkin park" title="icono de linkin park"></a>
+        <ul>
+            <li><a href="#inicio">Inicio</a></li>
+            <li><a href="#historia">Historia</a></li>
+            <li><a href="#videoscortos">Video</a></li>
+            <li><a href="#top5">TOP5</a></li>
+            <li><a href="#videos">Recomendaciones</a></li>
+            <li><a href="#consulta">consulta</a></li>
+            <li><a href="#login">Iniciar secion</a></li>
+            <li><form action="php/lab2.php" id="busqueda" title="busqueda" ><input type="search" placeholder="busqueda" id="busque" title="busqueda boton"><input type="submit" id="bus" value=""></form></li>
+        </ul>
+    </nav>
+    <main>
+        <img src="img/linkin-park1.jpg" alt="banda" title="banda de linkin-park">
+        <section title="Historia" id="historia">
+            <article  class="columna">
+                <h1 class="tamanio">Historia</h1>
+                <p class="separado">Linkin Park es una banda estadounidense de rock procedente de Los Angeles, California, Estados Unidos. Formada en 1996, el grupo estuvo inicialmente integrado por Mike Shinoda, Dave Farrell, Joe Hahn, Brad Delson, Rob Bourdon y Mark Wakefield, este último como voz principal. La banda inició en ese mismo año sus primeros trabajos musicales de manera independiente y posterior a esto grabaron su primer material llamado Xero; sin embargo no tuvieron gran éxito en la búsqueda de un sello discográfico ya que ninguno mostró interés en su trabajo, lo que ocasionó la renuncia de Mark Wakefield. Poco después, Chester Bennington se incorporó a la banda como vocalista; el grupo realizó su primera presentación en un club de Los Ángeles y siendo respaldados por Jeff Blue, en aquel entonces vicepresidente de Warner Bros. Records, lograron firmar con el sello en 1999. El nombre del grupo es un juego de palabras haciendo referencia al Lincoln Park en Santa Mónica.</p>
+            </article>
+        </section>
+        <section title="videosBreves" id="videoscortos" class="vid">
+            <h1 class="tamanio">video</h1>
+            <video controls >
+                <source src="video/linkinpark.mp4" type="video/mp4">
+                <source src="video/linkinpark.ogv" type="video/ogg">
+                    <p>su navegador no acepta vieos html5</p>
+            </video>
+        </section>
+        <section title="top5" id="top5">
+            <article>  
+                <h1 class="tamanio">TOP5</h1>
+                 <ol>
+                <li>Numb
+                    <audio controls id="audio">
+                        <source src="audio/Linkin Park - Numb.mp3" type="audio/mp3">
+                        <source src="audio/Linkin Park - Numb.ogg" type="audio/ogg">
+                    </audio>
+                </li>
+                <li>In the End</li>
+                <li>What I've done</li>
+                <li>Breaking the Habit</li>
+                <li>New Divide</li>
+            </ol>
+        </article>
+        </section>
+        <section title="videos" id="videos">
+            <article id="video">
+                <h1 class="tamanio">Recomendaciones</h1>
+                <h2 class="letra">1</h2>
+                <iframe src="https://www.youtube.com/embed/FaqZ4z4SE4s" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="video" title="disco"></iframe>
+                <h2 class="letra">2</h2>
+                <iframe src="https://www.youtube.com/embed/8bYte_Yf3FU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="video"title="amv1"></iframe>
+               <h2 class="letra">3</h2>
+                <iframe src="https://www.youtube.com/embed/2nuZ9VaC11o" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="video" title="amv2"></iframe>
+            </article>
+        </section>
+        <section title="consultas" id="consulta">
+            <article class="dudas">
+                <h1 class="tamanio">consultas</h1>
+                <form action="../php/lab2.php" id="consultas">
+                <input type="text" id="nombre" placeholder="nombre" title="nombre de la persona que comenta" required>
+                <br>
+                <input type="email" id="email" placeholder="ejemplo@domino.com" title="correo electronico" required>
+                <br>
+                <textarea name="consulta" id="obs" placeholder="consulta" title="ob" required ></textarea>
+                <br>
+                <input type="submit" id="consultar" value="Enviar Consulta">
+                </form>
+            </article>
+        </section>
+    </main>
+    <footer id="login">
+            <form action="../php/lab2.php" id="formulario">
+                <h1 class="tamanio"> Login</h1>
+                <input type="text" id="usuario" placeholder="usuario" title="usuario" required>
+                <br>
+                <input type="text" id="contrasenia" placeholder="contraseña" title="contraseña" required>
+                <br>
+                <input type="submit"  id="enviar" value="Entrar">
+            </form>
+    </footer>
+</body>
+</html>

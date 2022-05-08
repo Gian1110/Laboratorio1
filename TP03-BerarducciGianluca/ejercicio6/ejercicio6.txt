@@ -1,0 +1,1 @@
+vimos el uso de id (como enlaces), para facilitar la navegacion (scrolleo) para los no videntes

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Berarducci Gianluca">
+    <title>semana programdor</title>
+    <link rel="stylesheet" href="../css/estilo.css">
+</head>
+<body>
+    <header>
+        <nav class="menu">
+            <ul>
+                <li><a href="../index.html">Inicio</a></li>
+                <li><a href="#">semana</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+        <form action="../php/lab2.php" method="post" id="form">
+            <fieldset>
+                <legend>Datos Personales</legend>
+                <label for="apellido">Apellido: </label>
+                    <input type="text" id="apellido" name="apellido" maxlength="30" required>
+                <label for="Nombre" > Nombre: </label>
+                    <input type="text" id="Nombre" name="nombre" maxlength="30" required>
+                <br>
+                <label for="telefono">Teléfono: </label>
+                    <input type="tel" pattern="[0-9]{11}" id="telefono" name="telefono" placeholder="3816212312" required>
+                <label for="Nacimiento">Nacimiento:</label>
+                    <input type="date" name="fechaNacimiento" id="Nacimiento" required value="1995-01-01">
+                <br>
+                <label for="correo">Correo electronico</label>
+                    <input type="email" id="correo" name="correo" placeholder="ejemplo@dominio.com" maxlength="45" minlength="10" required>
+                <br>
+                <label for="carrera">Carrera
+                    <select name="carrera" id="carrera" required>
+                        <option value="lic">lic. En Informatica</option>
+                        <option value="programador" selected>Programador Universitario</option>
+                    </select>
+                </label> 
+                <label for="añoIngreso">Año de Ingreso</label>
+                <input type="number" id="añoIngreso" min="1" max="5" required>
+            </fieldset>
+            <fieldset >
+                <legend>Talleres de Interes</legend>
+                <label for="web"></label>
+                    <input type="checkbox" name="web" id="web">Desarrollo web
+                <label for="freelance"></label>
+                    <input type="checkbox" name="freelance" id="freelance">Trabajo freelance
+                <label for="bases"></label>
+                    <input type="checkbox" name="bases" id="bases">Bases de Datos
+            </fieldset>
+            <fieldset>
+                <legend>Observaciones</legend>
+                <textarea name="observaciones" id="obs" cols="30" rows="5"></textarea>
+            </fieldset>
+            <input type="submit" value="Guardar">
+            <input type="reset" value="limpiar">
+        </form>
+        </section>
+    </main>
+</body>
+</html>
