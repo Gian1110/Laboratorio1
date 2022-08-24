@@ -1,0 +1,15 @@
+pipeline {
+    environment {
+        inicia ='Hello'
+    }
+    agent any
+
+    stages {
+        stage('Hello') {
+            steps {
+                echo "$inicia"
+            }
+        }
+    }
+}
+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
